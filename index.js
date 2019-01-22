@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const http = require('http');
+ var http = require('http');
+ var fs = require('fs');
+ var path = require('path');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
