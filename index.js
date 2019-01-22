@@ -10,5 +10,7 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
+ http.createServer(function (request, response) {
+ }).listen(5000);
 
 client.login('NDkzNDc1ODc2MjIzMDU3OTIw.DygVMw.hnhmQuGy9eQk_aQx3i4Tam2-5N4');
